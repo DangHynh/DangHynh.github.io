@@ -1,0 +1,69 @@
+
+
+nav {
+    display:flex;
+    flex-flow:wrap row;
+    gap:10px;
+    align-items:center;
+    background-color:#006B83;
+    padding:10px;
+    position:fixed;
+    width:100%;
+    top:0px;
+    color:white;
+    z-index:4;
+}
+
+.rmitIcon {
+    margin-right:20px;
+}
+
+body {
+    margin:0px;
+    background-image: linear-gradient(to bottom, #00ff87, #52fb6f, #75f655, #90f13a, #a8eb12);
+    background-size:cover;
+
+}
+
+#hello {
+    font-size:300px;
+    margin-bottom:50px;
+    text-align:center;
+    margin-top:300px;
+    color:white;
+}
+
+#name {
+    text-align:center;
+    margin-bottom:300px;
+    font-size:50px;
+}
+
+#contents {
+    position:relative;
+    font-size:50px;
+    z-index:2;
+    background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height:cover;
+}
+
+#opening {
+    position:sticky;
+    top:0px;
+    z-index:0;
+    color: #86A8E7;
+    font-family: 'Handwriting', sans-serif;
+}
+
+.header {
+    font-family: 'Present Anthem', sans-serif;
+    font-size:100px;
+    text-align:center;
+}
+
+.footer {
+    background-color:#006B83;
+    display:block;
+    text-align:center;
+    
+}
